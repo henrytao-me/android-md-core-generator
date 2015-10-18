@@ -53,55 +53,55 @@ angular.module('app', [])
       }
     }];
 
-    // var palettes = [{
-    //   name: 'Primary',
-    //   color: {
-    //     normal: '@color/mdColor_purple',
-    //     dark: '@color/mdColor_purple_dark',
-    //     light: '@color/mdColor_purple_light'
-    //   },
-    //   textColor: {
-    //     normal: 'dark',
-    //     dark: 'dark',
-    //     light: 'light'
-    //   }
-    // }, {
-    //   name: 'Accent',
-    //   color: {
-    //     normal: '@color/mdColor_teal',
-    //     dark: '@color/mdColor_teal_dark',
-    //     light: '@color/mdColor_teal_light'
-    //   },
-    //   textColor: {
-    //     normal: 'dark',
-    //     dark: 'dark',
-    //     light: 'light'
-    //   }
-    // }, {
-    //   name: 'Warn',
-    //   color: {
-    //     normal: '@color/mdColor_red',
-    //     dark: '@color/mdColor_red_dark',
-    //     light: '@color/mdColor_red_light'
-    //   },
-    //   textColor: {
-    //     normal: 'dark',
-    //     dark: 'dark',
-    //     light: 'light'
-    //   }
-    // }, {
-    //   name: 'Background',
-    //   color: {
-    //     normal: '@color/mdColor_background_dark',
-    //     dark: '@color/mdColor_background_dark',
-    //     light: '@color/mdColor_background_dark'
-    //   },
-    //   textColor: {
-    //     normal: 'dark',
-    //     dark: 'dark',
-    //     light: 'dark'
-    //   }
-    // }];
+    palettes = [{
+      name: 'Primary',
+      color: {
+        normal: '@color/mdColor_purple',
+        dark: '@color/mdColor_purple_dark',
+        light: '@color/mdColor_purple_light'
+      },
+      textColor: {
+        normal: 'dark',
+        dark: 'dark',
+        light: 'light'
+      }
+    }, {
+      name: 'Accent',
+      color: {
+        normal: '@color/mdColor_teal',
+        dark: '@color/mdColor_teal_dark',
+        light: '@color/mdColor_teal_light'
+      },
+      textColor: {
+        normal: 'dark',
+        dark: 'dark',
+        light: 'light'
+      }
+    }, {
+      name: 'Warn',
+      color: {
+        normal: '@color/mdColor_red',
+        dark: '@color/mdColor_red_dark',
+        light: '@color/mdColor_red_light'
+      },
+      textColor: {
+        normal: 'dark',
+        dark: 'dark',
+        light: 'light'
+      }
+    }, {
+      name: 'Background',
+      color: {
+        normal: '@color/mdColor_background_dark',
+        dark: '@color/mdColor_background_dark',
+        light: '@color/mdColor_background_dark'
+      },
+      textColor: {
+        normal: 'dark',
+        dark: 'dark',
+        light: 'dark'
+      }
+    }];
 
     var templates = {
       color: {
