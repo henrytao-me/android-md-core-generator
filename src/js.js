@@ -103,6 +103,56 @@ angular.module('app', [])
       }
     }];
 
+    palettes = [{
+      name: 'Primary',
+      color: {
+        normal: '@color/mdColor_lime',
+        dark: '@color/mdColor_lime_dark',
+        light: '@color/mdColor_lime_light'
+      },
+      textColor: {
+        normal: 'dark',
+        dark: 'dark',
+        light: 'dark'
+      }
+    }, {
+      name: 'Accent',
+      color: {
+        normal: '@color/mdColor_pink',
+        dark: '@color/mdColor_pink_dark',
+        light: '@color/mdColor_pink_light'
+      },
+      textColor: {
+        normal: 'dark',
+        dark: 'dark',
+        light: 'light'
+      }
+    }, {
+      name: 'Warn',
+      color: {
+        normal: '@color/mdColor_red',
+        dark: '@color/mdColor_red_dark',
+        light: '@color/mdColor_red_light'
+      },
+      textColor: {
+        normal: 'dark',
+        dark: 'dark',
+        light: 'light'
+      }
+    }, {
+      name: 'Background',
+      color: {
+        normal: '@color/mdColor_background_light',
+        dark: '@color/mdColor_background_light',
+        light: '@color/mdColor_background_light'
+      },
+      textColor: {
+        normal: 'light',
+        dark: 'light',
+        light: 'light'
+      }
+    }];
+
     var templates = {
       color: {
         normal: '<item name="mdColor_<%= name.toLowerCase() %>Palette"><%= value %></item>',
